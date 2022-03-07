@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@400;500&display=swap');
+
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'Poppins', sans-serif
+}
+
+body{
+    /* min-height: 100vh; */
+    background-color: #191816;
+}
+
+
+
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    
+    
+}
+
+body > main > section.left > div.logo{
+    margin-top: 2.5rem;
+    margin-left: 2.5rem;
+}
+
+section.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 50vw;
+    height: 100%;
+    margin: 0 auto;
+}
+
+body > main > section.left > div.form{
+    margin: 0 auto;
+    padding: 3.5rem 7rem 3.4rem;
+    background-color: #24221f;
+}
+
+body > main > section.left > div.form > div{
+    margin-bottom: 1.188rem;
+}
+
+body > main > section.left > div.form > div > div > img{
+    margin-right: 0.625rem;
+}
+
+body > main > section.left > div.form > form{
+    display: flex;
+    flex-direction: column;
+    gap: 0.313rem;
+}
+
+body > main > section.left > div.form > form > input{
+    margin-bottom: 1.25rem;
+    width: 20.938rem;
+    height: 2.75rem;
+    border: 1px solid #868686;
+    box-sizing: border-box;
+    border-radius: 0.25rem;
+    background: none;
+    padding: 0.875rem 0rem 0.875rem 2.313rem;
+}
+
+body > main > section.left > div.form > form > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.25rem;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.188rem;
+    color: #A9AFB9;
+}
+
+body > main > section.left > div.form > form > label{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #AFB6C2;
+}
+
+input.inpt-chceck{
+    border: 1px solid #868686;
+    box-sizing: border-box;
+    border-radius: 0.25rem;
+}
+
+body > main > section.left > div.form > form > div > a{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 1.313rem;
+    color: #FFC632;
+    text-decoration: none;
+}
+
+body > main > section.left > div.form > form > button{
+    padding: 0.75rem 1.5rem;
+    background: #FFC632;
+    border-radius: 0.25rem;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 1.688rem;
+    letter-spacing: 0.015em;
+    text-transform: uppercase;
+    color: #473404;
+}
+
+body > main > section.left > div.form > form > h4{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.875rem;
+    line-height: 1.313rem;
+    color: #FFC632;
+}
+
+body > main > section.left > div.form > form > h4 > a{
+    text-decoration: none;
+}
+
+body > main > section.left > div.form > form > h4 > a > strong{
+    color: #FFC632;
+}
+
+body > main > section.left > div.form > div > div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+
+
+section.right{
+    width: 50vw;
+}
+
+body > main > section.right > img{
+    width: 100%;
+}
