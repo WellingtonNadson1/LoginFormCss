@@ -20,47 +20,42 @@ body{
 
 main{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100vh;
-    
-    
-}
-
-body > main > section.left > div.logo{
-    margin-top: 2.5rem;
 }
 
 section.left{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-    height: 100%;
-    margin: 0 auto;
+    padding: 2rem;
 }
 
-body > main > section.left > div.form{
-    margin: 0 auto;
+section.left > div.logo{
+    flex-grow: 1;
+}
+
+section.left > div.form{
     padding: 3.5rem 7rem 3.4rem;
     background-color: #24221f;
 }
 
-body > main > section.left > div.form > div{
+section.left > div.form > div{
     margin-bottom: 1.188rem;
 }
 
-body > main > section.left > div.form > div > div > img{
+section.left > div.form > div > div > img{
     margin-right: 0.625rem;
 }
 
-body > main > section.left > div.form > form{
+.title-form > h4{
+    font-size: 99%;
+}
+
+section.left > div.form > form{
     display: flex;
     flex-direction: column;
     gap: 0.313rem;
 }
 
-body > main > section.left > div.form > form > input{
+section.left > div.form > form > input{
     margin-bottom: 1.25rem;
     width: 20.938rem;
     height: 2.75rem;
@@ -71,28 +66,28 @@ body > main > section.left > div.form > form > input{
     padding: 0.875rem 0rem 0.875rem 2.313rem;
 }
 
-body > main > section.left > div.form > form > input.email {
+section.left > div.form > form > input.email {
     background-image: url(../img/mail.svg);
     background-repeat: no-repeat;
     background-position-x: 0.45rem;
     background-position-y: 0.59rem;
 }
 
-body > main > section.left > div.form > form > input.password {
+section.left > div.form > form > input.password {
     background-image: url(../img/lock.svg);
     background-repeat: no-repeat;
     background-position-x: 0.45rem;
     background-position-y: 0.59rem;
 }
 
-body > main > section.left > div.form > form > input#password {
+section.left > div.form > form > input#password {
     /* background-image: url(../img/eye.svg);
     background-repeat: no-repeat;
     background-position-x: 18.45rem;
     background-position-y: 0.612rem; */
 }
 
-body > main > section.left > div.form > form > div{
+section.left > div.form > form > div{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -105,7 +100,7 @@ body > main > section.left > div.form > form > div{
     color: #A9AFB9;
 }
 
-body > main > section.left > div.form > form > label{
+section.left > div.form > form > label{
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -120,7 +115,7 @@ input.inpt-chceck{
     border-radius: 0.25rem;
 }
 
-body > main > section.left > div.form > form > div > a{
+section.left > div.form > form > div > a{
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -130,7 +125,7 @@ body > main > section.left > div.form > form > div > a{
     text-decoration: none;
 }
 
-body > main > section.left > div.form > form > button{
+section.left > div.form > form > button{
     padding: 0.75rem 1.5rem;
     background: #FFC632;
     border-radius: 0.25rem;
@@ -142,9 +137,14 @@ body > main > section.left > div.form > form > button{
     letter-spacing: 0.015em;
     text-transform: uppercase;
     color: #473404;
+    cursor: pointer;
 }
 
-body > main > section.left > div.form > form > h4{
+div.form > form > button:hover{
+    background: #f7b100;
+}
+
+section.left > div.form > form > h4{
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -154,26 +154,29 @@ body > main > section.left > div.form > form > h4{
     color: #FFC632;
 }
 
-body > main > section.left > div.form > form > h4 > a{
+section.left > div.form > form > h4 > a{
     text-decoration: none;
 }
 
-body > main > section.left > div.form > form > h4 > a > strong{
+section.left > div.form > form > h4 > a > strong{
     color: #FFC632;
 }
 
-body > main > section.left > div.form > div > div{
+section.left > div.form > div > div{
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
 }
 
+.left > div:nth-child(3){
+    flex-grow: 1;
+}
 
 
 section.right{
     /* width: 100vw; */
 }
 
-body > main > section.right > img{
+section.right > img{
     /* width: 100%; */
 }
